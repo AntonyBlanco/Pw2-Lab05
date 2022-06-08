@@ -70,6 +70,21 @@
         <tr>
             <td>
             I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
+            <ul>
+                <li>Creacion del entorno virtual con virtualenv</li>
+                Para la creacion y activación de se ejecutaron los siguientes comandos:
+                <pre>
+virtualenv -p python3 .
+source ./bin/activate</pre>
+                <img src="./imgRepo/tree01.png"><br>
+                Los archivos generados no se consideran para el repositorio
+                <li>Creacion del proyecto Django "blogLab05"</li>
+                <pre>
+pip install django
+cd pw2-Lab05-repositorio</pre>
+                Contenido del directorio "pw2-Lab05-repositorio", no incluido el ".git":<br>
+                <img src="./imgRepo/tree02.png"><br>
+            </ul>
             </td>
         </tr>
         <tr>
