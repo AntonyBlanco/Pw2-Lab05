@@ -84,6 +84,20 @@ pip install django
 cd pw2-Lab05-repositorio</pre>
                 Contenido del directorio "pw2-Lab05-repositorio", no incluido el ".git":<br>
                 <img src="./imgRepo/tree02.png"><br>
+                <li>Primera Migracion</li>
+                Despues de crear el proyecto se realiza migrate y ejecutamos el servidor:
+                <pre>
+python ./manage.py migrate
+python ./manage.py runserver</pre>
+                Luego podemos ver que se han creado nuevos archivos en el directorio del proyecto:<br>
+                <ul>
+                    <li>Directorio ./__pycache__</li>
+                </ul>
+                <img src="./imgRepo/tree03.png"><br>
+                Y la base de datos para el proyecto segun como se configuró:
+                <ul>
+                    <li>Archivo ./db.sqlite3</li>
+                </ul>
             </ul>
             </td>
         </tr>
