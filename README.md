@@ -102,7 +102,7 @@
                         </ul>
                     </ul>
                 <li>Video tutorial donde se realicen las operaciones CRUD</li>
-                <li>URL video: <a><!--URL video--></a></li>
+                <li>URL video: <a>https://youtu.be/8HVBwo2meDs</a></li>
             </ol>
             </td>
         </tr>
@@ -133,13 +133,20 @@ PyPM: Es un administrador de paquetes propio de ActivePython cuya utilidad es si
                 Para insertar objetos, agregar elementos, Post en la base de datos, se necesita importar al modelo usuario(User) que ya lo tiene Django y podemos ver que que contiene.<br><img src="./imgRepo/codShell2.png"><br>
                 Después podemos crear instancas de algún usuario, superusuarios creados, y crear un objeto Post en la base de datos.
                 <br><img src="./imgRepo/codShell3.png"><br>
-                Las consultas que se realizan en el Shell no se guardan en el proyecto, por lo tanto ningún archivo se modifica y sólo se encontraran cambios en models.py y admin.py.
+                Finalmente con “git status”, se puede comprobar qué archivos fueron modificados.
+                <br><img src="./imgRepo/codShell4.png"><br>
+                Las consultas que se realizan en el Shell no se guardan en el proyecto, por lo tanto el único archivo que se modificó fue: “db.sqlite3”, la base de datos, ya que se agregó una nueva fila a la tabla.
             </ol>
             </td>
         </tr>
         <tr>
             <td>
             III. CONCLUSIONES<br>
+            <ul>
+                <li>Podemos afirmar que Django es una gran herramienta, que cumple muy bien la función de “framework”; ya que nos proporciona un esqueleto muy bien pensado y solo debemos moldearlo a lo que nosotros queremos en nuestra app personalmente.</li>
+                <li>El shell nos ayuda con la realización de consultas a los modelos en Django sin afectar al proyecto, mostrandonos diferentes QuerySet, dependiendo de la consulta, para analizar resultados.</li>
+                <li>El uso de entornos virtuales permite configurar las versiones de Python y Django independientemente de los diferentes proyectos que se esten darrollando.</li>
+            </ul>
             </td>
         </tr>
     </tbody>
@@ -169,7 +176,8 @@ PyPM: Es un administrador de paquetes propio de ActivePython cuya utilidad es si
         <tr>
             <td>
                 [1] Escobedo, R., 2022. pw2/labs/lab01 at main · rescobedoq/pw2. [online] GitHub. Available at: https://github.com/rescobedoq/pw2/tree/main/labs/lab01.<br>
-                [2] Curso Django: El Shell de Django, 2012. [Online] MAESTROS DEL WEB by Platzi. Available at: http://www.maestrosdelweb.com/curso-django-el-shell-de-django/.
+                [2] Curso Django: El Shell de Django, 2012. [online] MAESTROS DEL WEB by Platzi. Available at: http://www.maestrosdelweb.com/curso-django-el-shell-de-django/.
+                [3] Instalación de Django, HonKit, 2022. [online] djangogirls.org. Available at: https://tutorial.djangogirls.org/es/django_installation/.
             </td>
         </tr>
     </tbody>
