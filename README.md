@@ -129,7 +129,7 @@ python manage.py createsuperuser</pre>
                         Por ùltimo si ingresamos con estos datos en la url más /admin podremos ver una sección Posts donde se pueden crear nuevos posts.
                     </ul>
                 <li>Video tutorial donde se realicen las operaciones CRUD</li>
-                <li>URL video: <a>https://youtu.be/8HVBwo2meDs</a></li>
+                <li>URL video: <a href="https://youtu.be/8HVBwo2meDs">https://youtu.be/8HVBwo2meDs</a></li>
             </ol>
             </td>
         </tr>
