@@ -100,6 +100,33 @@
                         <ul>
                             <li>Archivo ./db.sqlite3</li>
                         </ul>
+                        <b>Creacion de la aplicacion "blog":</b>
+                        <pre>
+mkdir apps/blog && python manage.py startapp blog ./apps/blog</pre>
+                        En el directorio apps encontraremos una carpeta llamada blog conel siguiente contenido<br>
+                        <img src="./imgRepo/tree04.png"><br>
+                        Se modificaron los archivos para tener los códigos del tutorial de djangogirls:
+                        <ul>
+                            <li>apps/blog/models.py</li>
+                            <li>apps/blog/admin.py</li>
+                        </ul>
+                        Tambien el archivo "apps/blog/admin.py" cambiando:
+                        <pre>
+    name = 'blog'</pre>
+                        por:
+                        <pre>
+    name = 'apps/blog'</pre>
+                        para el reconocimiento de la ubicacion de la app.
+                        Y adicionalmente se creó una cuenta de administrador en la terminal:
+                        <pre>
+python manage.py createsuperuser</pre>
+                        En este caso se utilizó los siguientes datos:
+                        <ul>
+                            <li>Usuario: admin01</li>
+                            <li>email: ablancot@unsa.edu.pe</li>
+                            <li>Password: admin12345</li>
+                        </ul>
+                        Por ùltimo si ingresamos con estos datos en la url más /admin podremos ver una sección Posts donde se pueden crear nuevos posts.
                     </ul>
                 <li>Video tutorial donde se realicen las operaciones CRUD</li>
                 <li>URL video: <a>https://youtu.be/8HVBwo2meDs</a></li>
