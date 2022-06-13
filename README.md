@@ -73,21 +73,21 @@
             <ol>
                 <li>Crea un blog sencillo en un entorno virtual utilizando la guía: https://tutorial.djangogirls.org/es/django_start_project/</li>
                     <ul>
-                        <li>Creacion del entorno virtual con virtualenv</li>
-                        Para la creacion y activación de se ejecutaron los siguientes comandos:
+                        <li>Creación del entorno virtual con virtualenv</li>
+                        Para la creación y activación del virtualenv se ejecutaron los siguientes comandos:
                         <pre>
         virtualenv -p python3 .
         source ./bin/activate</pre>
                         <img src="./imgRepo/tree01.png"><br>
                         Los archivos generados no se consideran para el repositorio
-                        <li>Creacion del proyecto Django "blogLab05"</li>
+                        <li>Creación del proyecto Django "blogLab05"</li>
                         <pre>
         pip install django
         cd pw2-Lab05-repositorio</pre>
                         Contenido del directorio "pw2-Lab05-repositorio", no incluido el ".git":<br>
                         <img src="./imgRepo/tree02.png"><br>
-                        <li>Primera Migracion</li>
-                        Despues de crear el proyecto se realiza migrate y ejecutamos el servidor:
+                        <li>Primera Migración</li>
+                        Después de crear el proyecto se realiza migrate y ejecutamos el servidor:
                         <pre>
         python ./manage.py migrate
         python ./manage.py runserver</pre>
@@ -124,7 +124,7 @@ PyPM: Es un administrador de paquetes propio de ActivePython cuya utilidad es si
                     <li>__pycache__  #Directorio que guarda la ejecución de archivos .pyc, código compilado</li>
                     <li>/static o /packages o /modules #Directorios que almacenan los caches de dependencias</li>
                     <li>EntornoVirtual #Directorio de un entorno virtual creado</li>
-                    <li>DS_Store #Archivos ocultos del sistema, archivos de cnfiguración de IDE</li>
+                    <li>DS_Store #Archivos ocultos del sistema, archivos de configuración de IDE</li>
                 </ul>    
                 <li><b>Utilice python manage.py shell para agregar objetos. ¿Qué archivos se modificaron al agregar más objetos? (Recomendacion, utilizar git si no hay gitignore)</b></li>
                 Desde el SHELL se podrán probar los modelos, hacer consultas, analizar resultados, antes de elaborar las vistas.<br>
