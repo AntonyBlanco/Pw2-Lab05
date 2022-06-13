@@ -176,7 +176,7 @@ PyPM: Es un administrador de paquetes propio de ActivePython cuya utilidad es si
         <tr>
             <td>
                 [1] Escobedo, R., 2022. pw2/labs/lab01 at main · rescobedoq/pw2. [online] GitHub. Available at: https://github.com/rescobedoq/pw2/tree/main/labs/lab01.<br>
-                [2] Curso Django: El Shell de Django, 2012. [online] MAESTROS DEL WEB by Platzi. Available at: http://www.maestrosdelweb.com/curso-django-el-shell-de-django/.
+                [2] Curso Django: El Shell de Django, 2012. [online] MAESTROS DEL WEB by Platzi. Available at: http://www.maestrosdelweb.com/curso-django-el-shell-de-django/. <br>
                 [3] Instalación de Django, HonKit, 2022. [online] djangogirls.org. Available at: https://tutorial.djangogirls.org/es/django_installation/.
             </td>
         </tr>
