@@ -113,9 +113,11 @@
                 <li><b>¿Cuál es un estándar de codificación para Python? Ejemplo: Para PHP en el proyecto Pear https://pear.php.net/manual/en/standards.php</b></li>
                 Realizando una búsqueda sencilla en internet se logra encontrar que python utiliza un estándar llamado PEP-8. Indica convenciones de escritura de código en python para hacerlo más legible.
                 <li><b>¿Qué diferencias existen entre EasyInstall, pip, y PyPM?</b></li>
-                EasyInstall / SetUpTools: Fue un instalador de paquetes de PyPI e instalador de dependencias automáticas, útil en su momento.
-Pip: Es una mejora de EasyInstall ya que mejoró algunas funcionalidades como desinstalar paquetes o anular dependencias e introdujo la idea de los archivos de requisitos.
-PyPM: Es un administrador de paquetes propio de ActivePython cuya utilidad es simplificar tareas de localización, instalación, actualización y eliminación de paquetes de Python.
+                    <ul>
+                        <li>EasyInstall / SetUpTools: Fue un instalador de paquetes de PyPI e instalador de dependencias automáticas, útil en su momento.</li>
+                        <li>Pip: Es una mejora de EasyInstall ya que mejoró algunas funcionalidades como desinstalar paquetes o anular dependencias e introdujo la idea de los archivos de requisitos.</li>
+                        <li>PyPM: Es un administrador de paquetes propio de ActivePython cuya utilidad es simplificar tareas de localización, instalación, actualización y eliminación de paquetes de Python.</li>
+                    </ul>
                 <li><b>En un proyecto Django que se debe ignorar para usar git. Vea: https://github.com/django/django/blob/main/.gitignore. 
 ¿Qué otros tipos de archivos se deberían agregar a este archivo?</b></li>
                 Los archivos .gitignore contienen patrones que establecen coincidencias con los nombres de archivo de un repositorio para determinar si deberían ignorarse o no.
@@ -145,7 +147,7 @@ PyPM: Es un administrador de paquetes propio de ActivePython cuya utilidad es si
                 <ul>
                     <li>Podemos afirmar que Django es una gran herramienta, que cumple muy bien la función de “framework”; ya que nos proporciona un esqueleto muy bien pensado y solo debemos moldearlo a lo que nosotros queremos en nuestra app personalmente.</li>
                     <li>El shell nos ayuda con la realización de consultas a los modelos en Django sin afectar al proyecto, mostrandonos diferentes QuerySet, dependiendo de la consulta, para analizar resultados.</li>
-                    <li>El uso de entornos virtuales permite configurar las versiones de Python y Django independientemente de los diferentes proyectos que se esten darrollando.</li>
+                    <li>El uso de entornos virtuales permite configurar las versiones de Python y Django independientemente de los diferentes proyectos que se esten desarrollando.</li>
                 </ul>
             </td>
         </tr>
