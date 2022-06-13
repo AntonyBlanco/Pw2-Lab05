@@ -141,12 +141,12 @@ PyPM: Es un administrador de paquetes propio de ActivePython cuya utilidad es si
         </tr>
         <tr>
             <td>
-            III. CONCLUSIONES<br>
-            <ul>
-                <li>Podemos afirmar que Django es una gran herramienta, que cumple muy bien la función de “framework”; ya que nos proporciona un esqueleto muy bien pensado y solo debemos moldearlo a lo que nosotros queremos en nuestra app personalmente.</li>
-                <li>El shell nos ayuda con la realización de consultas a los modelos en Django sin afectar al proyecto, mostrandonos diferentes QuerySet, dependiendo de la consulta, para analizar resultados.</li>
-                <li>El uso de entornos virtuales permite configurar las versiones de Python y Django independientemente de los diferentes proyectos que se esten darrollando.</li>
-            </ul>
+                III. CONCLUSIONES<br>
+                <ul>
+                    <li>Podemos afirmar que Django es una gran herramienta, que cumple muy bien la función de “framework”; ya que nos proporciona un esqueleto muy bien pensado y solo debemos moldearlo a lo que nosotros queremos en nuestra app personalmente.</li>
+                    <li>El shell nos ayuda con la realización de consultas a los modelos en Django sin afectar al proyecto, mostrandonos diferentes QuerySet, dependiendo de la consulta, para analizar resultados.</li>
+                    <li>El uso de entornos virtuales permite configurar las versiones de Python y Django independientemente de los diferentes proyectos que se esten darrollando.</li>
+                </ul>
             </td>
         </tr>
     </tbody>
